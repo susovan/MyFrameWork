@@ -1,0 +1,21 @@
+
+platform :ios, '12.0'
+
+target 'MySampleApplication' do
+  use_frameworks!
+
+  # Pods for MySampleApplication
+
+  pod 'MyCoacoaTouchFrameWork',:path =>"../MyCoacoaTouchFrameWork"
+
+  target 'MySampleApplicationTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MySampleApplicationUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

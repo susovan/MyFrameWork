@@ -11,8 +11,9 @@ public class Service
 {
     private init() {}
     
-    public func doSomething () -> String{ return "My cocoaTouch frameWork"
-        
-    }
+    var myString :String?
+    
+    
+    public func doSomething () -> String{ return "My cocoaTouch frameWork"}
 
 }

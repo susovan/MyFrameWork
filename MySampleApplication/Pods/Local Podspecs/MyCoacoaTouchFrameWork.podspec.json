@@ -1,0 +1,19 @@
+{
+  "name": "MyCoacoaTouchFrameWork",
+  "version": "1.0.0",
+  "summary": "This is such a MyCoacoaTouchFrameWork.",
+  "description": "This is some MyCoacoaTouchFrameWork that was made by susovan",
+  "homepage": "https://github.com/susovan/MyFrameWork.git",
+  "license": "MIT",
+  "authors": {
+    "susovan": "susova00@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/susovan/MyFrameWork.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "MyCoacoaTouchFrameWork"
+}

@@ -10,7 +10,9 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
 
   spec.author             = { "susovan" => "susova00@gmail.com" }
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "8"
+  spec.swift_version = '4.2'
+
 
   spec.source       = { :git => "https://github.com/susovan/MyFrameWork.git", :tag => "1.0.0" }
   spec.source_files  = "MyCoacoaTouchFrameWork"

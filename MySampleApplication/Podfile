@@ -6,7 +6,7 @@ target 'MySampleApplication' do
 
   # Pods for MySampleApplication
 
-  pod 'MyCoacoaTouchFrameWork',:path =>"../MyCoacoaTouchFrameWork"
+  pod 'MyCoacoaTouchFrameWork', :path => '../'
 
   target 'MySampleApplicationTests' do
     inherit! :search_paths

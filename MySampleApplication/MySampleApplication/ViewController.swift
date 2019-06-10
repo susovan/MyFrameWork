@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let service = Service()
+        print(service.doSomething())
         // Do any additional setup after loading the view, typically from a nib.
     }
 
